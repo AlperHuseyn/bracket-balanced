@@ -1,7 +1,7 @@
 """ Solve this challenge using dictionaries for close_mapping """
 
 
-def insert_missing_brackets(s: str) -> str:
+def insert_missing_bracket(s: str) -> str:
     stack = []
     result = ''
     close_mapping = {')': '(', ']': '[', '}': '{'}
@@ -30,11 +30,11 @@ def insert_missing_brackets(s: str) -> str:
     return result
 
 
-print(insert_missing_brackets("Hello {[( world }"))
+print(insert_missing_bracket("Hello {[( world }"))
 # "Hello {[( world )]}"
 
-print(insert_missing_brackets("{[()]}"))
+print(insert_missing_bracket("{[()]}"))
 # "{[()]}"
 
-print(insert_missing_brackets("{[(])}"))
+print(insert_missing_bracket("{[(])}"))
 # "{[()]}"
