@@ -80,9 +80,6 @@ This would return **"(())"** which is a balanced version of the original string.
 
 ## Note
 
-The provided scripts are a starting point for solving the bracket balance challenge and may need to be modified or 
-extended for specific use cases. Feel free to use and modify the scripts as needed for your own projects.
-
 In summary, this repository contains a set of Python scripts that help in solving the bracket balance challenge. 
 The scripts include an implementation of a stack data structure using a Python class, an example of using a deque as 
 a stack, a function to check if a given string is bracket balanced and function to insert missing brackets to make a 
