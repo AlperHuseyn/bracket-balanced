@@ -31,3 +31,4 @@ print(f'popping from stack: {s.pop()}')  # 3
 print(f'popping from stack: {s.pop()}')  # 2
 print(f'is empty: {s.is_empty()}')  # False
 print(f'size: {s.size()}')  # 1
+
