@@ -42,7 +42,7 @@ it returns False.
 This script can be useful to check if a given string is bracket balanced. It can be used as a part of a larger program 
 to validate user input or to check the syntax of a programming language.
 
-4. **insert_missing_bracket.py** - This script contains a function called insert_missing_bracket() which takes in a 
+4. **insert_missing_bracket.py** - This script contains a function called '**insert_missing_brackets()**' which takes in a 
 string as an argument and returns the same string with any missing brackets inserted in the appropriate places.
 The function uses a stack to iterate through each character in the string and insert any missing brackets. It performs 
 the following checks:
