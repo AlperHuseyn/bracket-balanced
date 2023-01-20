@@ -60,6 +60,17 @@ closing bracket.
 This script can be useful to insert the missing brackets to make a given string bracket balanced. It can be used as 
 a part of a larger program to validate user input or to check the syntax of a programming language.
 
+5. '**insert_missing_bracket_v2.py**' : This script contains a function called '**insert_missing_brackets()**' which 
+takes in a string as an argument and returns the same string with any missing brackets inserted in the appropriate places.
+
+This function uses dictionaries to map opening and closing brackets, and performs the same checks as the previous script. 
+The main difference is that it uses dictionaries to check for matching brackets, rather than using a series of if-else 
+statements. This can make the code more readable and easier to maintain.
+
+This script can be useful to insert the missing brackets to make a given string bracket balanced. It can be used as a 
+part of a larger program to validate user input or to check the syntax of a programming language. It is an alternative 
+solution to the previous version, which uses if-else statements.
+
 ## Usage
 
 To use the scripts, you will need to have Python 3 installed on your machine. Once you have cloned this repository, 
@@ -81,7 +92,14 @@ This would return **"(())"** which is a balanced version of the original string.
 ## Note
 
 In summary, this repository contains a set of Python scripts that help in solving the bracket balance challenge. 
-The scripts include an implementation of a stack data structure using a Python class, an example of using a deque as 
-a stack, a function to check if a given string is bracket balanced and function to insert missing brackets to make a 
-string bracket balanced. The scripts are provided as a starting point and may need to be modified or extended for 
-specific use cases. Feel free to use and modify the scripts as needed for your own projects.
+The scripts include:
+
+1. An implementation of a stack data structure using a Python class
+2. An example of using a deque as a stack
+3. A function to check if a given string is bracket balanced
+4. A function to insert missing brackets to make a string bracket balanced using if-else statements
+5. A function to insert missing brackets to make a string bracket balanced using dictionaries for mapping the 
+opening and closing brackets.
+
+These scripts are provided as a starting point and may need to be modified or extended for specific use cases. 
+Feel free to use and modify the scripts as needed for your own projects.
