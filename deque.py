@@ -1,4 +1,4 @@
-""" deque method usage as a stack """
+""" deque data structure usage as a stack """
 
 from collections import deque
 
