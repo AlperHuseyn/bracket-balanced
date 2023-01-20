@@ -48,7 +48,7 @@ def insert_missing_bracket(s: str) -> str:
     return result
 
 
-print(insert_missing_bracket("Hello  world )]}"))
+print(insert_missing_bracket("Hello {[( world }"))
 # "Hello {[( world )]}"
 
 print(insert_missing_bracket("{[()]}"))
