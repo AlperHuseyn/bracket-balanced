@@ -62,7 +62,6 @@ a part of a larger program to validate user input or to check the syntax of a pr
 
 5. '**insert_missing_bracket_v2.py**' : This script contains a function called '**insert_missing_brackets()**' which 
 takes in a string as an argument and returns the same string with any missing brackets inserted in the appropriate places.
-
 This function uses dictionaries to map opening and closing brackets, and performs the same checks as the previous script. 
 The main difference is that it uses dictionaries to check for matching brackets, rather than using a series of if-else 
 statements. This can make the code more readable and easier to maintain.
