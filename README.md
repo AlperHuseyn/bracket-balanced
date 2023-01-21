@@ -6,7 +6,7 @@ a given string of brackets is balanced, and if not, adding the necessary bracket
 
 ## Scripts
 
-1. **stack-class.py** - This script contains an implementation of a stack data structure using a Python class.
+1. **[stack-class.py](https://github.com/AlperHuseyn/bracket-balanced/blob/main/stack-class.py)** - This script contains an implementation of a stack data structure using a Python class.
 A stack is a Last In First Out (LIFO) data structure. This implementation includes the following methods:
 * **'\__init\__(self)'** : Initializes an empty stack.
 * **'is_empty(self)'** : Returns True if the stack is empty, False otherwise.
@@ -17,7 +17,7 @@ A stack is a Last In First Out (LIFO) data structure. This implementation includ
 
 This script can be useful as a building block for other data structures or algorithms that use a stack.
 
-2. **deque.py** - This script shows how to use the deque data structure from the collections module as a stack. 
+2. **[deque.py](https://github.com/AlperHuseyn/bracket-balanced/blob/main/deque.py)** - This script shows how to use the deque data structure from the collections module as a stack. 
 The deque class provides a thread-safe double-ended queue, which can be used as a stack with the following methods:
 * **append(item)** : Pushes an item onto the top of the stack.
 * **pop()** : Removes and returns the item at the top of the stack. If the stack is empty, raises an IndexError.
@@ -26,7 +26,7 @@ This script shows that you can use deque as a stack by using the append method t
 stack and the pop method to remove and return the item at the top of the stack. The stack[-1] will give the top 
 element without removing it.
 
-3. **is_balanced.py** - This script contains a function called is_balanced() which takes in a string as an argument and 
+3. **[is_balanced.py](https://github.com/AlperHuseyn/bracket-balanced/blob/main/is_balanced.py)** - This script contains a function called is_balanced() which takes in a string as an argument and 
 returns a boolean value indicating whether the string is bracket balanced or not. The function uses a stack to check if 
 the given string is balanced. It iterates through each character in the string and performs the following checks:
 * If the character is an opening bracket, it pushes it onto the stack.
@@ -41,7 +41,7 @@ it returns False.
 This script can be useful to check if a given string is bracket balanced. It can be used as a part of a larger program 
 to validate user input or to check the syntax of a programming language.
 
-4. **insert_missing_bracket.py** - This script contains a function called '**insert_missing_brackets()**' which takes in a 
+4. **[insert_missing_bracket.py](https://github.com/AlperHuseyn/bracket-balanced/blob/main/insert_missing_bracket.py)** - This script contains a function called '**insert_missing_brackets()**' which takes in a 
 string as an argument and returns the same string with any missing brackets inserted in the appropriate places.
 The function uses a stack to iterate through each character in the string and insert any missing brackets. It performs 
 the following checks:
@@ -58,7 +58,7 @@ closing bracket.
 This script can be useful to insert the missing brackets to make a given string bracket balanced. It can be used as 
 a part of a larger program to validate user input or to check the syntax of a programming language.
 
-5. '**insert_missing_bracket_v2.py**' : This script contains a function called '**insert_missing_brackets()**' which 
+5. '**[insert_missing_bracket_v2.py](https://github.com/AlperHuseyn/bracket-balanced/blob/main/insert_missing_bracket_v2.py)**' : This script contains a function called '**insert_missing_brackets()**' which 
 takes in a string as an argument and returns the same string with any missing brackets inserted in the appropriate places.
 This function uses dictionaries to map opening and closing brackets, and performs the same checks as the previous script. 
 The main difference is that it uses dictionaries to check for matching brackets, rather than using a series of if-else 
