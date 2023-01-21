@@ -35,8 +35,7 @@ matching opening bracket.
 * If the stack is not empty, it compares the last element of the stack with the current closing bracket. If they are 
 not matching, it returns False.
 * If the brackets match, it removes the last element from the stack.
-
-At the end, if the stack is empty, it returns True, indicating that the string is balanced. If the stack is not empty, 
+* At the end, if the stack is empty, it returns True, indicating that the string is balanced. If the stack is not empty, 
 it returns False.
 
 This script can be useful to check if a given string is bracket balanced. It can be used as a part of a larger program 
@@ -53,8 +52,7 @@ string without an opening bracket.
 match, it removes the last element from the stack and adds the bracket to the result string. If they do not match, 
 it adds the corresponding opening bracket to the result string and removes the last element from the stack.
 * If the character is not a bracket, it adds it to the result string without any change.
-
-At the end, it adds any remaining opening brackets in the stack to the result string with the corresponding 
+* At the end, it adds any remaining opening brackets in the stack to the result string with the corresponding 
 closing bracket.
 
 This script can be useful to insert the missing brackets to make a given string bracket balanced. It can be used as 
